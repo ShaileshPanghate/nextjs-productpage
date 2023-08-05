@@ -1,8 +1,0 @@
-.mainBox{
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(3,1fr);
-    border: 2px solid black;
-    margin: 2px;
-    padding: 10px;
-}

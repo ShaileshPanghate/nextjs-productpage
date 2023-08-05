@@ -1,8 +1,10 @@
 "use client"
 // import Image from 'next/image'
-import './page.css';
+// import '../styles/globals.css'
 import React, {useState, useEffect} from 'react';
-import AllData from './new/AllData';
+import AllData from './AllData';
+import Link from 'next/link';
+
 
 interface eletype{
   id:number;
@@ -34,8 +36,11 @@ interface eletype{
   }, []);
   return (
     <div >
+      <div style={{display:"flex",}}  >
+
        <h1 className='text-4xl'>Product Page</h1>
-       <a href="cart.tsx">cart</a>
+       <Link href="/cart"><button  style={{fontSize:"30px" , marginLeft:"1100px", marginTop:"20px"}}>Cart</button> </Link>
+      </div>
        <br />
        <br />
        <div className="mainBox">     
