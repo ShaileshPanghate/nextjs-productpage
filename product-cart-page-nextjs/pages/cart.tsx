@@ -10,6 +10,7 @@ interface eletype{
     image:string;
     rating:any;
   }
+  
 function cart(){
 
     let productArray :any= [];
