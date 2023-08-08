@@ -14,16 +14,14 @@ interface eletype{
 function cart(){
 
     let productArray :any= [];
-  
+   
         if(localStorage.getItem("CartPro") !== null)
         {
         
             productArray =(localStorage.getItem("CartPro"));
             productArray = JSON.parse(productArray);
         }      
-        else{
-            alert("cart is Empty");
-        }
+       
      
 
     return(
@@ -31,7 +29,7 @@ function cart(){
             
             <div style={{display:"flex",}}  >
                 <h1 style={{ margin:"30px"}}>cart page</h1>
-                <Link href="/"><button  style={{fontSize:"30px" , marginLeft:"1100px", marginTop:"20px"}}>Product page</button> </Link>
+                <Link href="/"><button  style={{fontSize:"30px" , marginLeft:"900px", marginTop:"40px"}}>Product page</button> </Link>
             </div>
             
              <div style={{  gap:"10px"}}>

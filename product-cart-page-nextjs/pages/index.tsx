@@ -38,8 +38,8 @@ interface eletype{
     <div >
       <div style={{display:"flex",}}  >
 
-       <h1 className='text-4xl'>Product Page</h1>
-       <Link href="/cart"><button  style={{fontSize:"30px" , marginLeft:"1100px", marginTop:"20px"}}>Cart</button> </Link>
+       <h1 className='text-4xl ' style={{marginLeft:"15px"}} >Product Page</h1>
+       <Link href="/cart"><button  style={{fontSize:"30px" , marginLeft:"900px", marginTop:"40px"}}>Cart</button> </Link>
       </div>
        <br />
        <br />

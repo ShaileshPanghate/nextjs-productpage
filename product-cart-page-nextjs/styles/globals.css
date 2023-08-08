@@ -17,3 +17,11 @@ body {
 .boxdiv{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+h1{
+  font-size: 50px;
+  font-weight: 800;
+  -webkit-text-stroke: 4px #000;
+  color: transparent;
+ 
+  
+}
