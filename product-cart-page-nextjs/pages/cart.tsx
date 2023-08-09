@@ -35,8 +35,8 @@ function cart(){
              <div style={{  gap:"10px"}}>
 
                 {
-                     productArray.map((ele:eletype)=>{
-                        return <div style={{display:"flex",  margin:"30px"}}>
+                     productArray.map((ele:eletype,index)=>{
+                        return <div key={index} style={{display:"flex",  margin:"30px"}}>
                                      <img src={ele.image} alt="" width="120px" height="150px"/>
                                         <div style={{ margin:"10px"}}>                    
                                             <div className=""><h3 className="font-semibold">{ele.title}</h3></div>
