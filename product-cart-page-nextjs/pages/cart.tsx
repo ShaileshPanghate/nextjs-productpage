@@ -1,5 +1,5 @@
 import Link from 'next/link';
-
+import Image from 'next/image';;
 
 interface eletype{
     id:number;
@@ -29,7 +29,7 @@ function cart(){
             
             <div style={{display:"flex",}}  >
                 <h1 style={{ margin:"30px"}}>cart page</h1>
-                <Link href="/"><button  style={{fontSize:"30px" , marginLeft:"900px", marginTop:"40px"}}>Product page</button> </Link>
+                <Link href="/"><button id='button1'  style={{fontSize:"30px" }}>Product page</button> </Link>
             </div>
             
              <div style={{  gap:"10px"}}>
@@ -38,6 +38,7 @@ function cart(){
                      productArray.map((ele:eletype,index)=>{
                         return <div key={index} style={{display:"flex",  margin:"30px"}}>
                                      <img src={ele.image} alt="" width="120px" height="150px"/>
+                                   
                                         <div style={{ margin:"10px"}}>                    
                                             <div className=""><h3 className="font-semibold">{ele.title}</h3></div>
                                             <br />
@@ -45,6 +46,7 @@ function cart(){
                                             <br />
                                         
                                         </div>
+                                      
                                 </div>
                       })
                 }

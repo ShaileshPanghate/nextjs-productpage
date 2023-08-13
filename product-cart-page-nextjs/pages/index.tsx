@@ -1,5 +1,5 @@
 "use client"
-// import Image from 'next/image'
+
 // import '../styles/globals.css'
 import React, {useState, useEffect} from 'react';
 import AllData from './AllData';
@@ -39,7 +39,7 @@ interface eletype{
       <div style={{display:"flex",}}  >
 
        <h1 className='text-4xl ' style={{marginLeft:"15px"}} >Product Page</h1>
-       <Link href="/cart"><button  style={{fontSize:"30px" , marginLeft:"900px", marginTop:"40px"}}>Cart</button> </Link>
+       <Link href="/cart"><button id='button' style={{fontSize:"30px" }}>Cart</button> </Link>
       </div>
        <br />
        <br />

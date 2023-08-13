@@ -25,3 +25,55 @@ h1{
  
   
 }
+#button{
+  margin-left: 900px;
+  margin-top: 40px;
+}
+#button1{
+  margin-left: 900px;
+  margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+  .mainBox{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(1,1fr);
+    /* border: 2px solid black; */
+    margin: 5px;
+    padding: 10px;
+  }
+  #button{
+    margin-left: 120%;
+    margin-right: 5%;
+    margin-top: 40px;
+  }
+  #button1{
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+ 
+  .mainBox{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2,1fr);
+    /* border: 2px solid black; */
+    margin: 5px;
+    padding: 10px;
+  }
+  #button{
+    margin-left: 750%;
+    margin-right: 5%;
+    margin-top: 40px;
+  }
+  #button1{
+    margin-left: 280%;
+    margin-right: 5%;
+    margin-top: 40px;
+    
+  }
+}
